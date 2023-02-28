@@ -11,7 +11,7 @@ if not exist "%folderPath%" (
 )
 
 REM Write the contents to a new document
-(for %%f in ("%folderPath%\*.webp") do (
+(for %%f in ("%folderPath%\*.webp" "%folderPath%\*.gif" "%folderPath%\*.jpeg" "%folderPath%\*.jpg" "%folderPath%\*.png") do (
   echo ^<image src="%%f"^>
 )) > %folderPath%\output.txt
 

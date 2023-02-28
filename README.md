@@ -7,7 +7,8 @@ It can delete all original files and use original file name or numbers as file n
 It supports ```.png```, ```.jpg``` and ```.jpeg (not fully supported!)```
 
 ## NameToScript.bat
-This script asks for a specific folder and every .webp file in the specific folder turns to HTML Code, like: ```<image src="file.webp">```.
+This script asks for a specific folder and every image in the specific folder turns to HTML Code, like: ```<image src="file.webp">```.
+It supports ```.png```, ```.jpg```, ```.jpeg```, ```.gif```, ```.webp```.
 It creates a document named output.txt in your specific folder.
 
 ## License
